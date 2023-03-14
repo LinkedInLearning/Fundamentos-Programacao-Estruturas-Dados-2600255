@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Java: Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
