@@ -20,10 +20,6 @@ Este repositório contém os arquivos necssários para acompanhar o curos.
 
 **Lucas Longo** 
 
-Confira meus outros cursos no [LinkedIn Learning](https://www.linkedin.com/learning/instructors/). 
+Confira meus outros cursos no [LinkedIn Learning](https://www.linkedin.com/learning/instructors/lucas-longo). 
 
-[0]: Fundamentos da Programação
-[https://www.linkedin.com/learning/fundamentos-da-programacao]: https://www.linkedin.com/learning/fundamentos-da-programacao?u=0
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg 
-
-[1]: # (End of BP-Instruction ###############################################################################################) 
+[Fundamentos da Programação](https://www.linkedin.com/learning/fundamentos-da-programacao)
