@@ -12,7 +12,8 @@ for (var i = 0; i < idades.length; i++) {
 
 console.log("Soma: " + soma);
 
-console.log("Média: " + total / idades.length);
+console.log("Média: " + soma / idades.length);
 
+console.log(idades.reverse())
 // ERRO FORÇADO
 // console.log(idades[100]);
