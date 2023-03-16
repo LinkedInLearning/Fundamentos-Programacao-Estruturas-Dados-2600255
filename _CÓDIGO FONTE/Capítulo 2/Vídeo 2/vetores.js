@@ -1,18 +1,16 @@
-// 02_02
-
 var idades = [21, 32, 19, 45, 27];
 
-console.log("Idades: " + idades);
+console.log("Item no índice 2: " + idades[2]);
 
-console.log("Terceiro item: " + idades[2]);
+console.log("Número de ítens: " + idades.length);
 
-var total = 0;
+var soma = 0;
 
 for (var i = 0; i < idades.length; i++) {
-    total += idades[i];
+    soma += idades[i];
 }
 
-console.log("Soma: " + total);
+console.log("Soma: " + soma);
 
 console.log("Média: " + total / idades.length);
 
