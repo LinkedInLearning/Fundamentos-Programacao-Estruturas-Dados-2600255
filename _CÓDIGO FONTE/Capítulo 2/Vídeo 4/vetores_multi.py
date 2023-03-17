@@ -1,18 +1,25 @@
-pessoa_em_fileiras = [
-    ["João", "Maria", "Luiz"],
-    ["Amanda", "José", "Paulo"]
+tarefas_segunda = ["Tarefa A", "Tarefa B", "Tarefa C"]
+tarefas_terca = ["Tarefa D", "Tarefa E", "Tarefa F"]
+tarefas_quarta = ["Tarefa G", "Tarefa H", "Tarefa I"]
+
+dias_tarefas = [
+    tarefas_segunda,
+    tarefas_terca,
+    tarefas_quarta,
 ]
 
-fileira_0 = pessoa_em_fileiras[0]
+primeira_tarefa_terca = dias_tarefas[1][0]
 
-pessoa_2 = fileira_0[2]
+print("1) Primeira tarefa da terça: " + primeira_tarefa_terca)
 
-print("1) Pessoa no assento 2 da fileira 0: " + pessoa_2)
+dias_tarefas = [
+    ["Tarefa A", "Tarefa B", "Tarefa C"],
+    ["Tarefa D", "Tarefa E", "Tarefa F"],
+    ["Tarefa G", "Tarefa H", "Tarefa I"],
+]
 
-pessoa_1_fileira_1 = pessoa_em_fileiras[1][1]
+tarefas_terca = dias_tarefas[1]
+primeira_tarefa_terca = tarefas_terca[0]
 
-print("2) Pessoa na assento 1 da fileira 1: " + pessoa_1_fileira_1)
+print("2) Primeira tarefa da terça: " + primeira_tarefa_terca)
 
-pessoa_em_fileiras[1][1] = "Adriana"
-
-print("3) Nova pessoa na assento 1 da fileira 1: " + pessoa_em_fileiras[1][1])

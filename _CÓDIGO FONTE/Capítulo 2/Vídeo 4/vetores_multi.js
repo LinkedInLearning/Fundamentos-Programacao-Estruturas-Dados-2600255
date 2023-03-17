@@ -1,18 +1,26 @@
-const pessoa_em_fileiras = [
-  ["João", "Maria", "Luiz"],
-  ["Amanda", "José", "Paulo"],
+var tarefas_segunda = ["Tarefa A", "Tarefa B", "Tarefa C"];
+var tarefas_terca = ["Tarefa D", "Tarefa E", "Tarefa F"];
+var tarefas_quarta = ["Tarefa G", "Tarefa H", "Tarefa I"];
+
+var dias_tarefas = [
+  tarefas_segunda,
+  tarefas_terca,
+  tarefas_quarta,
 ];
 
-const fileira_0 = pessoa_em_fileiras[0];
-const pessoa_2 = fileira_0[2];
+primeira_tarefa_terca = dias_tarefas[1][0]
 
-console.log("1) Pessoa no assento 2 da fileira 0: " + pessoa_2);
+console.log("1) Primeira tarefa da terça: " + primeira_tarefa_terca)
 
-const pessoa_1_fileira_1 = pessoa_em_fileiras[0][0];
+dias_tarefas = [
+  ["Tarefa A", "Tarefa B", "Tarefa C"],
+  ["Tarefa D", "Tarefa E", "Tarefa F"],
+  ["Tarefa G", "Tarefa H", "Tarefa I"],
+]
 
-console.log("2) Pessoa na assento 1 da fileira 1: " + pessoa_1_fileira_1);
+tarefas_terca = dias_tarefas[1]
+primeira_tarefa_terca = tarefas_terca[0]
 
-pessoa_em_fileiras[1][1] = "Adriana";
+console.log("2) Primeira tarefa da terça: " + primeira_tarefa_terca)
 
-console.log("3) Nova pessoa na assento 1 da fileira 1: " + pessoa_em_fileiras[1][1]);
 
