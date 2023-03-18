@@ -2,39 +2,54 @@ print("\n1) Vetor vazio")
 frutas = []
 print(frutas)
 
-print("\n2) Append (adicionar ao final)")
 frutas.append("Maçã")
+print("\n2) Append (adicionar ao final)")
 print(frutas)
 
-print("\n3) Somar um vetor com outro")
-outras_frutas = ["Banana", "Limão", "Laranja", "Uva", "Abacate", 2]
+outras_frutas = ["Banana", "Limão", "Laranja", "Uva", "Abacate"]
 frutas += outras_frutas
+print("\n3) Concatenar um vetor com outro");
 print(frutas)
 
-print("\n4) Pop (remover último elemento)")
 frutas.pop()
+print("\n4) Pop (remover último elemento)")
 print(frutas)
 
-print("\n5) Pop índice 2 (remover item do índice 2)")
 frutas.pop(2)
+print("\n5) Pop índice 2 (remover item do índice 2)")
 print(frutas)
 
-print("\n6) Remove (remover)")
 frutas.remove("Maçã")
+print("\n6) Remover item com valor 'Maçã'")
 print(frutas)
 
-print("\n7) Append (colocar no final)")
 frutas.append("Maça")
+print("\n7) Append (colocar no final)")
 print(frutas)
 
-print("\n8) Inserir no índice 1")
-frutas.insert(1, "Pera")
+# frutas[2:2] = ["Pera"]
+# print("\n8a) Inserir no índice 2 o valor 'Pera' substituindo 0 ítens")
+# print(frutas)
+
+frutas.insert(2, "Pera")
+print("\n8a) Inserir no índice 2 o valor 'Pera' substituindo 0 ítens")
 print(frutas)
 
-print("\n9) Inverter a ordem")
+# frutas[1:3] = ["Jabuticaba"]
+# print("\n9a) Inserir no índice 1 o valor 'Jabuticaba' substituindo 2 ítens")
+# print(frutas)
+
+frutas.pop(1)
+frutas.insert(1, "Jabuticaba")
+frutas.pop(2)
+print("\n9b) Inserir no índice 1 o valor 'Jabuticaba' substituindo 2 ítens")
+print(frutas)
+
 frutas.reverse()
+print("\n10) Inverter a ordem")
 print(frutas)
 
-print("\n10) Ordenar")
 frutas.sort()
+print("\n11) Ordenar")
 print(frutas)
+
