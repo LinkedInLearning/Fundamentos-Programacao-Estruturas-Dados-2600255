@@ -1,4 +1,4 @@
-# Título final do curso 
+Fundamentos da Programação: Estrutura de Dados
 
 Este é o repositório do curso `Fundamentos da Programação: Estrutura de Dados`. Você pode acessar o conteúdo completo no [LinkedIn Learning][lil-course-url]. 
 
