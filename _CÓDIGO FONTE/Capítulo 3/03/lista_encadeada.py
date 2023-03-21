@@ -1,48 +1,71 @@
-# Definição da classe Node que representa cada nó da lista encadeada
-class Node:
-    
-    # Construtor que recebe um valor e define o próximo nó como None
-    def __init__(self, valor):
-        self.valor = valor
+class No:
+    def __init__(self, dado):
+        self.dado = dado
         self.proximo = None
 
-
-# Definição da classe ListaEncadeada 
 class ListaEncadeada:
-
-    # Construtor que define o nó inicial como None
     def __init__(self):
-        self.inicio = None
+        self.cabeca = None
 
-    # Método que adiciona um valor no início da lista
-    def adicionar_no_inicio(self, valor):
-        novo_no = Node(valor)
-        novo_no.proximo = self.inicio
-        self.inicio = novo_no
+    def adicionar(self, dado):
+        novo_no = No(dado)
 
-    # Método que adiciona um valor no final da lista
-    def adicionar_no_final(self, valor):
-        novo_node = Node(valor)
-        if self.inicio is None:
-            self.inicio = novo_node
+        if not self.cabeca:
+            self.cabeca = novo_no
             return
-        ultimo_no = self.inicio
-        while ultimo_no.proximo is not None:
-            ultimo_no = ultimo_no.proximo
-        ultimo_no.proximo = novo_node
 
-    # Método que imprime todos os valores da lista
-    def imprimir(self):
-        no_atual = self.inicio
-        while no_atual is not None:
-            print(no_atual.valor)
-            no_atual = no_atual.proximo
+        atual = self.cabeca
+        while atual.proximo:
+            atual = atual.proximo
 
+        atual.proximo = novo_no
+
+    def inserir_no_inicio(self, dado):
+        novo_no = No(dado)
+        novo_no.proximo = self.cabeca
+        self.cabeca = novo_no
+
+    def inserir_na_posicao(self, posicao, dado):
+        novo_no = No(dado)
+        atual = self.cabeca
+        anterior = None
+        indice = 0
+
+        if posicao == 0:
+            self.inserir_no_inicio(dado)
+            return
+
+        while atual and indice < posicao:
+            anterior = atual
+            atual = atual.proximo
+            indice += 1
+
+        novo_no.proximo = atual
+        anterior.proximo = novo_no
+
+    def remover(self, dado):
+        if not self.cabeca:
+            return
+
+        if self.cabeca.dado == dado:
+            self.cabeca = self.cabeca.proximo
+            return
+
+        atual = self.cabeca
+        anterior = None
+
+        while atual and atual.dado != dado:
+            anterior = atual
+            atual = atual.proximo
+
+        if not atual:
+            return
+
+        anterior.proximo = atual.proximo
 
 # Criação da lista encadeada e testes dos métodos
 lista = ListaEncadeada()
-lista.adicionar_no_final(1)
-lista.adicionar_no_final(2)
-lista.adicionar_no_final(3)
-lista.adicionar_no_inicio(0)
-lista.imprimir()
+lista.adicionar(1) # [1]
+lista.inserir_no_inicio(2) # [2, 1]
+lista.inserir_na_posicao(1, 3) # [2, 3, 1]
+lista.remover(1) # [2, 3]
