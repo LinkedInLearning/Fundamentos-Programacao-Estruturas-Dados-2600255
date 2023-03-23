@@ -1,30 +1,30 @@
     class Stack {
     constructor() {
-        this.items = [];
+        this.itens = [];
     }
 
     estaVazio() {
-        return this.items.length === 0;
+        return this.itens.length === 0;
     }
 
     push(item) {
-        this.items.push(item);
+        this.itens.push(item);
     }
 
     pop() {
         if (!this.estaVazio()) {
-        return this.items.pop();
+        return this.itens.pop();
         }
     }
 
     peek() {
         if (!this.estaVazio()) {
-        return this.items[this.items.length - 1];
+        return this.itens[this.itens.length - 1];
         }
     }
 
     tamanho() {
-        return this.items.length;
+        return this.itens.length;
     }
 }
 

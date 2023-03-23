@@ -1,23 +1,23 @@
 class Stack:
     def __init__(self):
-        self.items = []
+        self.itens = []
 
     def esta_vazio(self):
-        return len(self.items) == 0
+        return len(self.itens) == 0
 
     def push(self, item):
-        self.items.append(item)
+        self.itens.append(item)
 
     def pop(self):
         if not self.esta_vazio():
-            return self.items.pop()
+            return self.itens.pop()
 
     def peek(self):
         if not self.esta_vazio():
-            return self.items[-1]
+            return self.itens[-1]
 
     def tamanho(self):
-        return len(self.items)
+        return len(self.itens)
 
 stack = Stack()
 
