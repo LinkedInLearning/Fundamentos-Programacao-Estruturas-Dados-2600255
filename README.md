@@ -16,6 +16,8 @@ Este repositório usa o Codespaces.
 
 Para acessar, clique no botão verde "Code", selecione a aba Codespace e inicie um novo. 
 
+[codespaces-image-url]
+
 Todos os arquivos estarão lá organizados por capítulo e video. 
 
 ### Instrutor(a) 
@@ -27,5 +29,6 @@ Confira meus outros cursos no [LinkedIn Learning](https://www.linkedin.com/learn
 [0]: # (Replace these placeholder URLs with actual course URLs) 
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js 
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg 
+[codespaces-image-url]: https://github.com/LinkedInLearning/Fundamentos-Programacao-Estruturas-Dados-2600255/blob/main/CodespacesInstruction.png?raw=true
 
 [1]: # (End of BP-Instruction ###############################################################################################) 
