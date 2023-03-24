@@ -8,7 +8,7 @@ Este curso oferece uma introdução abrangente às estruturas de dados, exploran
 
 ## Instruções 
 
-Este repositório usa o Codespaces. Para acessar, clique no botão verde, selecione a aba Codespace e inicie um novo. Todos os arquivos estarão lá organizados por capítulo e video. 
+Este repositório usa o Codespaces. Para acessar, clique no botão verde "Code", selecione a aba Codespace e inicie um novo. Todos os arquivos estarão lá organizados por capítulo e video. 
 
 ### Instrutor(a) 
 
