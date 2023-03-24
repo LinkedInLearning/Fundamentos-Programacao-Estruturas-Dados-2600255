@@ -1,30 +1,14 @@
-# Título final do curso 
+# Fundamentos 
 
-Este é o repositório do curso `[título do curso]`. Você pode acessar o conteúdo completo no [LinkedIn Learning][lil-course-url]. 
+Este é o repositório do curso `Fundamentos da Programação – Estrutura de Dados`. Você pode acessar o conteúdo completo no [LinkedIn Learning][lil-course-url]. 
 
 ![Título completo do curso][lil-thumbnail-url][Copy&Past Image from LiL-Buddy]  
 
-Confira o arquivo Readme na ramificação principal para obter instruções e informações atualizadas. 
-
-DESCRIÇÃO DO CURSO 
+Este curso oferece uma introdução abrangente às estruturas de dados, explorando conceitos fundamentais e suas aplicações práticas. Os tópicos incluem: strings, dados numéricos, ponteiros e referências, vetores (unidimensionais, multidimensionais e mutáveis), busca e ordenação de vetores, notação Big O, listas encadeadas (simples e duplas), pilhas, filas, estruturas hash (dicionários e funções hash), árvores e heaps (conjuntos, árvores de busca binária e heaps). Com exemplos práticos, analogias explicativas e arquivos para acompanhar os tópicos, este curso tem como objetivo te oferecer uma base que te auxilia escolher a estrutura de dados mais adequada para as suas necessidades e situações. 
 
 ## Instruções 
 
-Este repositório contém ramificações, ou branches, para cada um dos vídeos do curso. Caso você deseje alternar para uma ramificação específica e continuar o curso a partir daí, use o menu pop-up da ramificação no GitHub ou adicione `/tree/nome_da_ramificação` ao URL para acessar diretamente a ramificação desejada. 
-
-## Ramificações 
-
-As ramificações são estruturadas para corresponder aos vídeos do curso. A convenção de nomenclatura é Capítulo#_Vídeo#. Por exemplo, a ramificação `02_03` corresponde ao terceiro vídeo do segundo capítulo. Algumas ramificações terão um status inicial e final, indicado com um i (início) e um f (fim). Portanto, a ramificação 02_03_i corresponde ao código de início do vídeo e a ramificação 02_03_f corresponde ao código de fim do vídeo. Por outro lado, a ramificação mestre corresponde ao código de conclusão do curso. 
-
-## Instalação 
-
-1. Para usar esses arquivos de exercícios, você precisa baixar o seguinte programa: 
-
-- [software] 
-
-2. Clone este repositório em seu computador local (macOS) ou CMD (Windows), ou use uma ferramenta de interface gráfica do usuário (GUI), como o SourceTree, para fazer isso. 
-
-3. [Instruções específicas do curso]. 
+Este repositório usa o Codespaces. Para acessar, clique no botão verde, selecione a aba Codespace e inicie um novo. Todos os arquivos estarão lá organizados por capítulo e video. 
 
 ### Instrutor(a) 
 
