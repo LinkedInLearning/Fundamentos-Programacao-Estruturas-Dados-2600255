@@ -1,15 +1,17 @@
 idades = [21, 32, 19, 45, 27]
 
-print("Item no índice 2: ", idades[2])
+idade_i2 = idades[2]
 
-print("Número de ítens: ", len(idades))
+print("Item no índice 2: ", idade_i2)
 
-print("Soma:", sum(idades))
+num_items = len(idades)
 
-print("Média:", sum(idades)/len(idades))
+soma = sum(idades)
+
+media = sum(idades) / len(idades)
 
 # ERRO FORÇADO
-# print(idades[100])
+idade_inexistente = idades[100]
 
 
 

@@ -1,19 +1,21 @@
 var idades = [21, 32, 19, 45, 27];
 
-console.log("Item no índice 2: " + idades[2]);
+var idade_i2 = idades[2];
 
-console.log("Número de ítens: " + idades.length);
+console.log("Item no índice 2: " + idade_i2);
+
+var num_items = idades.length;
 
 var soma = 0;
 
-for (var i = 0; i < idades.length; i++) {
-    soma += idades[i];
+for (var i = 0; i < num_items; i++) {
+    var idade = idades[i];
+    soma += idade;
 }
 
-console.log("Soma: " + soma);
+var media = soma / num_items;
 
-console.log("Média: " + soma / idades.length);
+idades.reverse();
 
-console.log(idades.reverse())
 // ERRO FORÇADO
-// console.log(idades[100]);
+var idade_inexistente = idades[100];
