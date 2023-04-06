@@ -17,7 +17,7 @@ Este repositório usa o Codespaces.
 Para acessar, clique no botão verde "Code", selecione a aba Codespace e inicie um novo. 
 
 [Veja onde clicar]
-
+![0](CodespacesInstruction.png)
 Todos os arquivos estarão lá organizados por capítulo e video. 
 
 ### Instrutor(a) 
