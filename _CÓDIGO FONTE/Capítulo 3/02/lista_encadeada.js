@@ -1,4 +1,4 @@
-class No {
+class Nó {
     constructor(dado) {
         this.dado = dado;
         this.proximo = null;
@@ -11,7 +11,7 @@ class ListaEncadeada {
     }
 
     adicionar(dado) {
-        const novoNo = new No(dado);
+        const novoNo = new Nó(dado);
 
         if (!this.cabeca) {
             this.cabeca = novoNo;
@@ -27,13 +27,13 @@ class ListaEncadeada {
     }
 
     inserirNoInicio(dado) {
-        const novoNo = new No(dado);
+        const novoNo = new Nó(dado);
         novoNo.proximo = this.cabeca;
         this.cabeca = novoNo;
     }
 
     inserirNaPosicao(posicao, dado) {
-        const novoNo = new No(dado);
+        const novoNo = new Nó(dado);
         let atual = this.cabeca;
         let anterior = null;
         let indice = 0;
@@ -80,8 +80,13 @@ class ListaEncadeada {
 }
 
 // Criação da lista encadeada e testes dos métodos
-var lista = new ListaEncadeada()
-lista.adicionar(1) // [1]
-lista.inserirNoInicio(2) // [2, 1]
-lista.inserirNaPosicao(1, 3) // [2, 3, 1]
-lista.remover(1) // [2, 3]
+var lista = new ListaEncadeada();
+lista.adicionar(1);
+lista.adicionar(10);
+lista.adicionar(3);
+lista.inserirNoInicio(2);
+lista.remover(10);
+lista.inserirNaPosicao(1, 3);
+
+
+console.log(lista);

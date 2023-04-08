@@ -8,4 +8,5 @@ def minha_funcao_hash(login, senha):
 
 print(minha_funcao_hash("lucas", "longo"))
 print(minha_funcao_hash("lucas", "nova senha"))
+print(minha_funcao_hash("lucas", "nova senha"))
 

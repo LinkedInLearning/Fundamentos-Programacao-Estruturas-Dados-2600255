@@ -8,10 +8,10 @@ dicionario["hobbies"] = ["paraglider", "mountain bike", "programação"]
 dicionario["valor booleano"] = True
 
 # Acessando elementos do dicionário
-print(dicionario["nome"])   # imprime "Lucas"
-print(dicionario["idade"])   # imprime 48
-print(dicionario["hobbies"][2])   # imprime "programação"
-print("verdadeiro" if dicionario["valor booleano"] else "falso")
+nome = dicionario["nome"]
+idade = dicionario["idade"]
+hobbies = dicionario["hobbies"][2]
+booleano = "verdadeiro" if dicionario["valor booleano"] else "falso"
 
 # Alterando elementos do dicionário
 dicionario["idade"] = 100

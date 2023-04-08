@@ -8,3 +8,4 @@ function minha_funcao_hash(login, senha) {
     
 console.log(minha_funcao_hash("lucas", "longo"));
 console.log(minha_funcao_hash("lucas", "nova senha"));
+console.log(minha_funcao_hash("lucas", "nova senha"));
