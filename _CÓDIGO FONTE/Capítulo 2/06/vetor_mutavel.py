@@ -1,7 +1,7 @@
 # Vetor vazio
 frutas = []
 
-# Append (adicionar ao final)
+# Append (adicionar)
 frutas.append("Maçã")
 
 # Criar outro vetor

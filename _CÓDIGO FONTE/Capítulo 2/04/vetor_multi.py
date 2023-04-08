@@ -25,5 +25,7 @@ dias_tarefas = [
 # PEGAR A TAREFA DO DIA DO VETOR 
 primeira_tarefa_terca = dias_tarefas[1][0]
 
+print(primeira_tarefa_terca)
+
 
 

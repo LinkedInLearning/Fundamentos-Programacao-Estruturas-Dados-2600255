@@ -19,7 +19,7 @@ class Fila {
   
     peek() { 
         if (!this.estaVazia()) {
-            return this.itens[this.itens.length - 1];
+            return this.itens[0];
         }
     }
 
@@ -34,7 +34,7 @@ fila.enfileirar(1);
 fila.enfileirar(2);
 fila.enfileirar(3);
 
-verUltimoItem = fila.peek();
-pegarUltimoItem = fila.desenfileirar();
+var verPrimeiroItem = fila.peek();
+var pegarPrimeiroItem = fila.desenfileirar();
 
 console.log("fila tem " + fila.tamanho() + " items");
