@@ -1,5 +1,5 @@
 // Criando um dicionário vazio
-var dicionario = {};
+var dicionario = [];
 
 // Adicionando elementos ao dicionário
 dicionario["nome"] = "Lucas";
