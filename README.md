@@ -1,13 +1,10 @@
-# Fundamentos 
+# Fundamentos da Programação – Estrutura de Dados
 
 Este é o repositório do curso `Fundamentos da Programação – Estrutura de Dados`. Você pode acessar o conteúdo completo no [LinkedIn Learning][lil-course-url]. 
 
 ![Título completo do curso][lil-thumbnail-url][Copy&Past Image from LiL-Buddy]  
 
-Este curso oferece uma introdução abrangente às estruturas de dados, explorando conceitos fundamentais e suas aplicações práticas. 
-
-Os tópicos incluem: strings, dados numéricos, ponteiros e referências, vetores (unidimensionais, multidimensionais e mutáveis), busca e ordenação de vetores, notação Big O, listas encadeadas (simples e duplas), pilhas, filas, estruturas hash (dicionários e funções hash), árvores e heaps (conjuntos, árvores de busca binária e heaps). 
-
+Este curso oferece uma introdução abrangente às estruturas de dados, explorando conceitos fundamentais e suas aplicações práticas. Os tópicos incluem: strings, dados numéricos, ponteiros e referências, vetores (unidimensionais, multidimensionais e mutáveis), busca e ordenação de vetores, notação Big O, listas encadeadas (simples e duplas), pilhas, filas, estruturas hash (dicionários e funções hash), árvores e heaps (conjuntos, árvores de busca binária e heaps). 
 Com exemplos práticos, analogias explicativas e arquivos para acompanhar os tópicos, este curso tem como objetivo te oferecer uma base que te auxilia escolher a estrutura de dados mais adequada para as suas necessidades e situações. 
 
 ## Instruções 
@@ -24,7 +21,7 @@ Todos os arquivos estarão lá organizados por capítulo e video.
 
 **Lucas Longo** 
 
-Confira meus outros cursos no [LinkedIn Learning](https://www.linkedin.com/learning/instructors/). 
+Confira meus outros cursos no [LinkedIn Learning](https://www.linkedin.com/learning/instructors/lucas-longo). 
 
 [0]: # (Replace these placeholder URLs with actual course URLs) 
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js 
