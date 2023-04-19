@@ -65,9 +65,10 @@ class ListaEncadeada:
 
 # Criação da lista encadeada e testes dos métodos
 lista = ListaEncadeada()
-lista.adicionar(1) 
+lista.adicionar(1)
+lista.adicionar(10)
+lista.adicionar(3) 
 lista.inserir_no_inicio(2)
-lista.remover(1) 
-lista.inserir_na_posicao(1, 3) 
+lista.remover(10) 
 
 print(lista)
