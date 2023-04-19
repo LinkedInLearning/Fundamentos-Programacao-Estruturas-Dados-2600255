@@ -28,14 +28,8 @@ if (indice == -1) {
     frutas.splice(indice, 1);
 }
 
-// Push (colocar no final)
-frutas.push("Maracujá")
-
 // Inserir no índice 2 o valor 'Pera' removendo 0 ítens
 frutas.splice(2, 0, "Pera");
-
-// Inserir no índice 1 o valor 'Jabuticaba' removendo 2 ítens
-frutas.splice(1, 2, "Jabuticaba");
 
 // Reverse - inverter a ordem
 frutas.reverse();

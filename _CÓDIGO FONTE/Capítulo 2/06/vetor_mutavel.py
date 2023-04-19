@@ -19,14 +19,8 @@ frutas.pop(2)
 # Remove - buscar e remover item "Uva"
 frutas.remove("Uva")
 
-# Adicionar item "Maracujá"
-frutas.append("Maracujá")
-
 # Inserir no índice 2 o valor 'Pera' removendo 0 ítens
 frutas.insert(2, "Pera")
-
-# Inserir no índice 1 o valor 'Jabuticaba' substituindo 2 ítens 
-frutas[1:3] = ["Jabuticaba"]
 
 # Reverse - inverter a ordem
 frutas.reverse()
