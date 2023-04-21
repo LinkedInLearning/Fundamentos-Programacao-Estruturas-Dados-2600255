@@ -4,8 +4,7 @@ Este é o repositório do curso `Fundamentos de Programação – Estrutura de D
 
 ![Título completo do curso][lil-thumbnail-url] 
 
-Este curso oferece uma introdução abrangente às estruturas de dados, explorando conceitos fundamentais e suas aplicações práticas. Os tópicos incluem: strings, dados numéricos, ponteiros e referências, vetores (unidimensionais, multidimensionais e mutáveis), busca e ordenação de vetores, notação Big O, listas encadeadas (simples e duplas), pilhas, filas, estruturas hash (dicionários e funções hash), árvores e heaps (conjuntos, árvores de busca binária e heaps). 
-Com exemplos práticos, analogias explicativas e arquivos para acompanhar os tópicos, este curso tem como objetivo te oferecer uma base que te auxilia escolher a estrutura de dados mais adequada para as suas necessidades e situações. 
+Este curso oferece uma introdução abrangente sobre estruturas de dados, explorando conceitos fundamentais e suas aplicações práticas. Os tópicos incluem: strings, dados numéricos, ponteiros e referências, vetores (unidimensionais, multidimensionais e mutáveis), busca e ordenação de vetores, notação Big O, listas encadeadas (simples e duplas), pilhas, filas, estruturas hash (dicionários e funções hash), árvores e heaps (conjuntos, árvores de busca binária e heaps). Com exemplos práticos, analogias explicativas e arquivos para acompanhamento, este curso tem como objetivo oferecer uma base para auxiliar na escolha da estrutura de dados mais adequada para as suas necessidades e situações.
 
 ## Instruções 
 
