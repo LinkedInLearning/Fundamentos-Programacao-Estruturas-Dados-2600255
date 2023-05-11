@@ -8,15 +8,13 @@ Este curso oferece uma introdução abrangente sobre estruturas de dados, explor
 
 ## Instruções 
 
-Este repositório usa o Codespaces. 
+Este curso está integrado ao GitHub Codespaces, um ambiente desenvolvedor instantâneo na nuvem que oferece toda a funcionalidade do seu IDE favorito sem a necessidade de configurar o dispositivo local. Com o Codespaces, você pode praticar em qualquer dispositivo, a qualquer momento - tudo isso sem precisar instalar nenhuma outra ferramenta. Confira o vídeo "Como usar o GitHub Codespaces" neste curso para saber como começar.
 
 Para acessar, clique no botão verde "Code", selecione a aba Codespace e inicie um novo. 
 
 ![0](CodespacesInstruction.png)
 
 Todos os arquivos estarão lá organizados por capítulo e video.
-
-Este curso está integrado ao GitHub Codespaces, um ambiente desenvolvedor instantâneo na nuvem que oferece toda a funcionalidade do seu IDE favorito sem a necessidade de configurar o dispositivo local. Com o Codespaces, você pode praticar em qualquer dispositivo, a qualquer momento - tudo isso sem precisar instalar nenhuma outra ferramenta. Confira o vídeo "Como usar o GitHub Codespaces" neste curso para saber como começar.
 
 ### Instrutor(a) 
 
