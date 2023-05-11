@@ -16,7 +16,7 @@ Para acessar, clique no botão verde "Code", selecione a aba Codespace e inicie 
 
 Todos os arquivos estarão lá organizados por capítulo e video.
 
-Confira o vídeo "Como usar o GitHub Codespaces" neste curso para saber mais.
+Confira o vídeo deste curso "Como usar o GitHub Codespaces" para saber mais.
 
 ### Instrutor(a) 
 
