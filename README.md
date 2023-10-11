@@ -25,8 +25,8 @@ Confira o vídeo deste curso "Como usar o GitHub Codespaces" para saber mais.
 Confira meus outros cursos no [LinkedIn Learning](https://www.linkedin.com/learning/instructors/lucas-longo). 
 
 [0]: # (Replace these placeholder URLs with actual course URLs) 
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js 
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg 
+[lil-course-url]: https://www.linkedin.com/learning/fundamentos-de-programacao-estruturas-de-dados-22871998/conheca-as-estruturas-de-dados 
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQETu_bkJBUkdA/learning-public-crop_675_1200/0/1696225230002?e=1697616000&v=beta&t=bFR48bUymck9mLZeBRfTXoHWFazYuIhJlnhK1reMCy0 
 [Veja onde clicar]: https://github.com/LinkedInLearning/Fundamentos-Programacao-Estruturas-Dados-2600255/blob/main/CodespacesInstruction.png?raw=true
 
 [1]: # (End of BP-Instruction ###############################################################################################) 
