@@ -26,7 +26,7 @@ Confira meus outros cursos no [LinkedIn Learning](https://www.linkedin.com/learn
 
 [0]: # (Replace these placeholder URLs with actual course URLs) 
 [lil-course-url]: https://www.linkedin.com/learning/fundamentos-de-programacao-estruturas-de-dados-22871998/conheca-as-estruturas-de-dados 
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQETu_bkJBUkdA/learning-public-crop_675_1200/0/1696225230002?e=1697616000&v=beta&t=bFR48bUymck9mLZeBRfTXoHWFazYuIhJlnhK1reMCy0 
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQHQi2RUTxJJtg/learning-public-crop_675_1200/0/1697027775490?e=2147483647&v=beta&t=iE7YsUOmFrKoOFeDvFNmdOR_mcpiCY5KoDyM3zpP5jg 
 [Veja onde clicar]: https://github.com/LinkedInLearning/Fundamentos-Programacao-Estruturas-Dados-2600255/blob/main/CodespacesInstruction.png?raw=true
 
 [1]: # (End of BP-Instruction ###############################################################################################) 
